@@ -1,0 +1,32 @@
+body {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+}
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+  padding-top: 1.5em;
+}
+h1 {
+  font-size: 32px;
+}
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: black;
+}
+figcaption {
+  font-style: italic;
+}
+figure {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+.sam{
+    float: left;
+    margin: 7px 7px 0 7px;
+}

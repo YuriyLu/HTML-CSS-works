@@ -1,0 +1,172 @@
+body {
+  background-color: black;
+  margin: 0 0 5% 0;
+  padding: 0;
+}
+
+.central {
+  background-color: black;
+  left: 0;
+  right: 0;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(223, 67, 67);
+}
+
+h3{
+  border-bottom: 2px solid maroon;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+table{
+  width: 100%;
+}
+.submenu{
+  margin: 0 0 0 30px;
+}
+td{
+  vertical-align: top;
+}
+.rightpart{
+  text-align: right;
+}
+
+.course{
+  width: 70%;
+}
+.course-first{
+  width: 85%;
+}
+
+
+.main-header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(34, 33, 33);
+  padding: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  width: 100%;
+  font-family: gillroy;
+  font-weight: normal;
+  font-size: 150%;
+}
+a {
+  text-decoration: none;
+  color: rgb(223, 67, 67);
+}
+
+.main-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-name {
+  margin: 20px;
+}
+.main-header-center {
+  display: flex;
+}
+.main-header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-item {
+  margin: 20pt;
+}
+.logo {
+  float: left;
+  width: 3em;
+}
+
+.resizable-text {
+  font-size: 100%;
+  color: rgb(223, 67, 67);
+}
+.about{
+  font-size: 150%;
+}
+
+.my-photo {
+  width: 50%;
+}
+
+.header-text {
+  color: rgb(223, 67, 67);
+  text-align: center;
+  margin-top: 10%;
+}
+.left-picture{
+  float: left;
+  margin: 7px 7px 7px 0;
+}
+.right-picture{
+  float: right;
+  margin: 7px 0px 7px 7px;
+}
+.information-part{
+  margin: 0 10% 0 10%;
+  font-size: 150%;
+}
+.footer{
+  position: fixed;
+  left: 0; bottom: 0;
+  padding: 10px;
+  background: rgb(34, 33, 33);
+  color: rgb(223, 67, 67);
+  width: 100%;
+  height: 1.4em;
+  font-size: 100%;
+}
+
+@media (max-width: 1000px) {
+  .main-header {
+    font-size: 125%;
+  }
+  .menu-item {
+    margin: 10pt;
+  }
+  .resizable-text {
+    font-size: 75%;
+  }
+  .header-text {
+    margin-top: 12%;
+  }
+  .footer{
+    font-size: 50%;
+  }
+  body{
+    margin: 0 0 7% 0;
+  }
+}
+@media (max-width: 500px) {
+  .main-header {
+    font-size: 75%;
+  }
+  .menu-item {
+    margin: 5pt;
+  }
+  .resizable-text {
+    font-size: 50%;
+  }
+  .header-text {
+    margin-top: 15%;
+  }
+  .footer{
+    font-size: 37.5%;
+  }
+  body{
+    margin: 0 0 10% 0;
+  }
+}

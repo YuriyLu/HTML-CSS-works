@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(238, 237, 222);
+  margin: 0 0 5% 0;
+  padding: 0;
+}
+
+.header-text {
+  color: rgb(116, 20, 20);
+  text-align: center;
+  margin-top: 10%;
+}
+.text-about {
+  width: 50%;
+  padding-left: 50px;
+  color: rgb(116, 20, 20);
+  
+}
+
+.portrait {
+  width: 30%;
+}
+
+.exile {
+  margin: 50px;
+  font-size: 4ex;
+}
+
+h4 {
+  margin: 50px 0 0 0;
+  text-align: center;
+  padding: 0;
+}
+
+.main-part {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.underfooter {
+  width: 100%;
+}
+
+li {
+  margin: 20px;
+}

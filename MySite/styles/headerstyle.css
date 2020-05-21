@@ -1,0 +1,82 @@
+.main-header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(34, 33, 33);
+    padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    height: 3em;
+    width: 100%;
+    font-family: gillroy;
+    font-weight: normal;
+    font-size: 150%;
+  }
+  
+  .main-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .company-name {
+    margin: 20px;
+  }
+  .main-header-center {
+    display: flex;
+  }
+  .main-header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-item {
+    margin: 20pt;
+  }
+  .logo {
+    float: left;
+    width: 3em;
+  }
+  
+  .resizable-text {
+    font-size: 100%;
+    color: rgb(223, 67, 67);
+  }
+  .about{
+    font-size: 150%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(223, 67, 67);
+  }
+
+  body{
+    margin: 5% 0 5% 0;
+    padding: 0;
+    background-color: rgb(238, 237, 222);
+    color: rgb(116, 20, 20);
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: rgb(34, 33, 33);
+    color: rgb(223, 67, 67);
+    width: 100%;
+    height: 1.4em;
+    font-size: 100%;
+  }
+  .footer-right {
+    float: right;
+    margin: 0 30px 0 0;
+  }
+  .in-development{
+    font-size: 5em;
+    color: brown;
+    text-align: center;
+  }

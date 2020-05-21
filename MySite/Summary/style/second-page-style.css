@@ -1,0 +1,39 @@
+.main {
+  background-image: url("images/pripyat_after_2.jpg");
+  height: 730px;
+  background-size: contain;
+}
+body {
+  margin: 0 12%;
+  padding: 0;
+  background-color: rgb(32, 32, 34);
+}
+a {
+  text-decoration: none;
+  color: rgb(82, 79, 79);
+  font-style: italic;
+  font-size: 300%;
+  font-family: 'Courier New', Courier, monospace;
+ 
+}
+h1 {
+  color: rgb(82, 79, 79);
+  font-size: 100%;
+  font-weight: normal;
+}
+.reminder {
+  position: absolute;
+  bottom: 0;
+  margin: 0 40px;
+}
+
+img {
+  position: absolute;
+}
+marquee{
+  font-size: 400%;
+}
+video{
+  margin: 0;
+  padding: 0;
+}

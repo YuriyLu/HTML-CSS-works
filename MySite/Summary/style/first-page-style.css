@@ -1,0 +1,25 @@
+.main{
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-image: url("images/pripyat_before.jpg");
+    height: 730px;
+    background-size: contain;
+}
+body{
+    background-color: rgb(170, 145, 138);
+    margin: 0 8%;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(59, 25, 20);
+    font-style: oblique;
+    font-size: 200%;
+}

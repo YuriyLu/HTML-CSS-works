@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(84, 97, 84);
+}
+table {
+  width: 90%;
+  height: 90%;
+}
+h1 {
+  text-align: center;
+}
+.dayoftheweek {
+  width: 45%;
+  flex: none;
+  flex-basis: 33%;
+}
+.shedule {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  text-align: center;
+}
+
+.header{
+    font-weight: bolder;
+    font-size: 150%;
+    background-color: rgb(153, 81, 81);
+}
+.dead{
+    background-color: dimgray;
+}
+
+table{
+    background-color: rgb(20, 77, 20);
+    color: ivory;
+}
+tr.even{
+    background-color: rgb(31, 55, 66);
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teg FORM</title>
+    <link rel="stylesheet" href="style/form.css" />
+    <link rel="stylesheet" href="../../styles/headerstyle.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header-left">
+        <a href="../../mainpage.html" rel="home" class="main-logo">
+          <img src="../../images/Header/LOGO1.jpg" alt="IT" class="logo" />
+          <div class="company-name">
+            AmarantIT
+          </div>
+        </a>
+      </div>
+      <div class="main-header-center"></div>
+      <div class="main-header-right">
+        <div class="menu-item">
+          <a href="mainpage.html">Home</a>
+        </div>
+        <div class="menu-item">
+          <a href="Summary/index.html">About me</a>
+        </div>
+      </div>
+    </header>
+
+    <form action="obrabotka.php" method="POST">
+      Enter your name:<br />
+      <input
+        type="text"
+        name="name"
+        size="15"
+        maxlength="20"
+        value=""
+        required
+      /><br />
+      <br />
+      Surname:<br />
+      <input
+        type="text"
+        name="surname"
+        size="20"
+        maxlength="25"
+        value=""
+        required
+      /><br />
+      <br />
+      <br />
+      Gender:
+      <br />
+      <input type="radio" name="gender" value="1" checked />Male<br />
+      <input type="radio" name="gender" value="1" />Female<br />
+      <br />
+
+      Load your avatar: <br />
+      <input type="file" name="file" accept="image/*" />
+      <br />
+      <br />
+      Where are youy live:<br />
+      <select name="Towns" size="1">
+        <option value="city1">Minsk</option>
+        <option value="city2">Mogilev</option>
+        <option value="city3">Brest</option>
+        <option value="city4">Hrodna</option>
+        <option value="city5">Homyel</option>
+        <option value="city6">Vitebsk</option>
+      </select>
+      <br />
+      <br />
+      Which languages do you know:
+      <br />
+      <input type="checkbox" name="language" value="1" checked />Russian<br />
+      <input type="checkbox" name="language" value="1" />English<br />
+      <input type="checkbox" name="language" value="1" />German<br />
+      <br />
+      <br />
+      <button type="submit">
+        <img src="data/green-button-1550087573yfC.jpg" height="100" />
+      </button>
+      <button type="reset">
+        <img src="data/cansel.jpg" height="100" />
+      </button>
+      <br />
+    </form>
+
+    <div class="footer">
+      &copy; Yuriy Lukashewich
+      <div class="footer-right">
+        <a href="mailto:yura2000uraura@gmail.com">
+          yura2000uraura@gmail.com
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

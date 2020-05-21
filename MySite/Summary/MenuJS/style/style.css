@@ -1,0 +1,24 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border-color: black;
+    background: red;
+}
+.main{
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.color1{
+  background-color: brown;
+}
+
+a{
+  font-style: normal;
+  color: firebrick;
+  text-decoration: none;
+}
